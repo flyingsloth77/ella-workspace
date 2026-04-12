@@ -1,0 +1,39 @@
+# Research & Intelligence Tiers
+# Configure sources for weekly research digest.
+# Ella scores and filters content by tier and relevance.
+
+tiers:
+  tier_1:
+    name: "Must Read"
+    description: "Core to your work. Always include if relevant."
+    sources:
+      # X/Twitter accounts
+      x_accounts: []
+        # - "@example_ai_researcher"
+        # - "@example_vc"
+      # Newsletters / RSS
+      newsletters: []
+        # - "newsletter-name"
+
+  tier_2:
+    name: "Should Read"
+    description: "Valuable but not critical. Include top items."
+    sources:
+      x_accounts: []
+      newsletters: []
+
+  tier_3:
+    name: "Nice to Know"
+    description: "Broader context. Include only standout items."
+    sources:
+      x_accounts: []
+      newsletters: []
+
+# Topics to track across all sources
+tracked_topics:
+  # - "AI agents"
+  # - "venture capital"
+  # - "open source AI"
+
+# Engagement threshold for inclusion (likes, reposts, etc.)
+min_engagement_score: 50

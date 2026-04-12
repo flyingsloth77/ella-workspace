@@ -1,0 +1,109 @@
+# Ella -- Scheduled Task Definitions
+# These define the rhythms that make the system work.
+# Implemented via OpenClaw cron jobs or Claude Code scheduled tasks.
+
+schedules:
+  morning_brief:
+    description: "Send morning brief via Telegram"
+    cron: "0 9 * * *"  # Daily at 09:00
+    action: |
+      1. Read memory/MEMORY.md for context
+      2. Read tasks/active.md for priorities and overdue
+      3. Fetch today's calendar via Google Calendar MCP
+      4. Check Gmail for urgent unread
+      5. Read yesterday's daily notes for carryover
+      6. Compose brief using templates/morning_brief.md format
+      7. Send via Telegram
+
+  evening_wrap:
+    description: "Send evening wrap via Telegram"
+    cron: "0 18 * * *"  # Daily at 18:00
+    action: |
+      1. Read today's daily notes
+      2. Compare tasks/active.md against what was planned
+      3. Fetch tomorrow's calendar
+      4. Compose wrap using templates/evening_wrap.md format
+      5. Send via Telegram
+
+  meeting_prep:
+    description: "Send meeting prep brief 60 min before external meetings"
+    cron: "*/30 * * * *"  # Check every 30 min for upcoming meetings
+    action: |
+      1. Fetch calendar events in next 90 minutes
+      2. Filter for external meetings only
+      3. For each upcoming meeting:
+         a. Look up attendees in memory/people/
+         b. Check recent email threads with attendees
+         c. Check tasks involving attendees
+         d. Compose brief using templates/meeting_brief.md
+         e. Send via Telegram
+
+  post_meeting_process:
+    description: "Process meeting notes after meetings end"
+    cron: "*/30 * * * *"  # Check every 30 min for recently ended meetings
+    action: |
+      1. Check for meetings that ended in the last 30 min
+      2. If meeting notes available (manual paste or note-taker API):
+         a. Extract action items (mine vs theirs)
+         b. Add my tasks to tasks/active.md
+         c. Update attendee profiles in memory/people/
+         d. Log to daily notes
+         e. Send summary via Telegram
+
+  email_triage:
+    description: "Triage new emails across accounts"
+    cron: "0 * * * *"  # Hourly
+    action: |
+      1. Fetch unread emails via Gmail MCP
+      2. Pre-classify using scripts/email_triage.py
+      3. Apply LLM judgment for final classification
+      4. Auto-process receipts and travel confirmations
+      5. Surface act_now items immediately via Telegram
+      6. Batch act_today items for next triage report
+
+  task_sweep:
+    description: "Evening task review"
+    cron: "0 23 * * *"  # Daily at 23:00
+    action: |
+      1. Run: python scripts/task_manager.py sweep
+      2. Check delegated.md for overdue commitments
+      3. If anything needs attention, send via Telegram
+      4. Otherwise, silence
+
+  kaizen_research:
+    description: "Weekly research scan"
+    cron: "0 10 * * 5"  # Friday at 10:00
+    action: |
+      1. Scan OpenClaw community for new patterns
+      2. Check for new tools and techniques
+      3. Review this week's friction points from daily notes
+      4. Save findings to memory/kaizen/kaizen-research-YYYY-MM-DD.md
+      5. Notify via Telegram that research is ready for Sunday review
+
+  kaizen_review:
+    description: "Weekly system improvement review"
+    cron: "0 10 * * 0"  # Sunday at 10:00
+    action: |
+      1. Read latest kaizen research
+      2. Summarize top recommendations
+      3. Send review prompt via Telegram for discussion
+      4. After discussion, implement agreed changes
+
+  research_digest:
+    description: "Weekly curated research digest"
+    cron: "0 11 * * 0"  # Sunday at 11:00
+    action: |
+      1. Gather content from tracked sources (config/research_tiers.yaml)
+      2. Score by engagement and relevance
+      3. Compile using templates/research_digest.md format
+      4. Send via Telegram
+
+  memory_synthesis:
+    description: "Weekly synthesis of daily notes into long-term memory"
+    cron: "0 22 * * 0"  # Sunday at 22:00
+    action: |
+      1. Read all daily notes from the past week
+      2. Identify key people, projects, decisions, lessons
+      3. Update memory/MEMORY.md with new entries
+      4. Update relevant person and project profiles
+      5. Archive processed patterns

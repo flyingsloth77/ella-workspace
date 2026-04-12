@@ -1,0 +1,42 @@
+# Email Triage Rules
+# These rules help Ella pre-classify emails before applying LLM judgment.
+# Customize based on your email patterns.
+
+# VIP senders -- always surface immediately
+vip_senders:
+  # - "boss@company.com"
+  # - "important-client@example.com"
+
+# Auto-archive patterns (drop without surfacing)
+auto_archive:
+  senders:
+    # - "noreply@marketing.com"
+  subjects:
+    # - "Weekly newsletter"
+    # - "Daily digest"
+
+# Auto-process patterns
+auto_process:
+  receipts:
+    senders:
+      # - "receipts@uber.com"
+      # - "no-reply@amazon.com"
+    action: log_to_expenses  # Log to memory/expenses/ when implemented
+  travel:
+    senders:
+      # - "noreply@booking.com"
+      # - "reservations@airline.com"
+    action: update_itinerary  # Update travel itinerary when implemented
+
+# Classification hints for the LLM
+priority_signals:
+  high:
+    - "urgent"
+    - "asap"
+    - "deadline"
+    - "time-sensitive"
+    - "action required"
+  low:
+    - "fyi"
+    - "no action needed"
+    - "for your reference"

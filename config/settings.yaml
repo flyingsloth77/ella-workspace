@@ -1,0 +1,45 @@
+# Ella Chief of Staff -- Main Configuration
+# Adjust these settings to match your setup and preferences.
+
+owner:
+  name: ""  # Fill in your name
+  timezone: "Europe/Paris"  # CET -- adjust if needed (e.g., Europe/Brussels, Europe/Madrid)
+  telegram_chat_id: ""  # Your Telegram chat ID for Ella to message you
+
+messaging:
+  platform: telegram
+  morning_brief_time: "09:00"
+  evening_wrap_time: "18:00"
+  meeting_prep_lead_minutes: 60
+
+email:
+  accounts:
+    - id: primary
+      # Gmail MCP handles auth -- just specify which accounts to triage
+  triage_frequency_minutes: 60
+  auto_process_receipts: true
+  auto_process_travel: true
+
+calendar:
+  # Google Calendar MCP handles auth
+  check_frequency_minutes: 30
+  prep_external_meetings: true
+  prep_internal_meetings: false  # Set true if you want briefs for internal too
+
+tasks:
+  sweep_time: "23:00"
+  stale_threshold_days: 5
+  overdue_escalation: true
+
+kaizen:
+  research_day: friday
+  review_day: sunday
+  sources:
+    - openclaw_community
+    - github_trending
+    # Add custom sources as needed
+
+memory:
+  daily_notes_auto: true
+  synthesis_frequency: weekly  # How often to synthesize daily notes into MEMORY.md
+  max_memory_index_lines: 200
