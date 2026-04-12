@@ -33,4 +33,4 @@ On each heartbeat, work through this checklist. Skip items checked recently (tra
 - Update memory files
 - Log to daily notes (python scripts/daily_notes.py log "...")
 - Organize and clean memory
-- Commit and push workspace changes to git
+- **Git sync** — Run `python scripts/git_sync.py sync` on EVERY heartbeat. This keeps laptop and VPS in sync. Do this FIRST before other checks so you have latest state, and LAST after any changes.
