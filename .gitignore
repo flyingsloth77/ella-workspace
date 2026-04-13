@@ -1,18 +1,28 @@
+# Secrets - NEVER commit
+.env
+*.json
+!package.json
+gmail_client_secret.json
+gmail_tokens*.json
+flipboard_cookies.*
+
+# Debug screenshots
+debug_*.png
+step*.png
+final_*.jpg
+
+# Atlas Wire project files (not part of Ella)
+atlas-wire-*.md
+flipboard_*.js
+flipboard_*.log
+flipboard_*.json
+flipboard_sop.md
+*_stderr.log
+
 # Python
 __pycache__/
 *.py[cod]
-.venv/
 
 # OS
 .DS_Store
 Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Temp
-*.tmp
-*.bak
-
-# Don't ignore memory -- it IS the system

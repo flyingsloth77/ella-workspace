@@ -2,39 +2,26 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
-## What Goes Here
+## Current Known Setup
 
-Things like:
+### Messaging
+- Primary messaging surface: Telegram
 
+### Git / Sync
+- Workspace is intended to sync via `scripts/git_sync.py`
+- HEARTBEAT.md instructs running `python scripts/git_sync.py sync` first and last on every heartbeat
+- Live git remote/auth/sync status is still unverified because shell inspection has not completed successfully
+
+### Reference Materials Present
+- Atlas Wire files are present in the workspace:
+  - `atlas-wire-global-playbook.md`
+  - `atlas-wire-greece-playbook.md`
+  - `atlas-wire-group-bios.md`
+
+## To Fill In Later
 - Camera names and locations
 - SSH hosts and aliases
-- Preferred voices for TTS
+- Preferred TTS voice
 - Speaker/room names
 - Device nicknames
-- Anything environment-specific
-
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+- Anything else environment-specific
