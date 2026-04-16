@@ -70,6 +70,7 @@ When something needs attention, classify it:
 - Never send half-baked replies to messaging surfaces.
 - `trash` > `rm` (recoverable beats gone forever).
 - When in doubt, ask.
+- **Shell access:** Read `SHELL_POLICY.md` before running any shell command. It defines exactly what you can do freely vs. what needs confirmation.
 
 ## Continuity
 
