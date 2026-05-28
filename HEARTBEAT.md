@@ -11,8 +11,8 @@ On each heartbeat, work through this checklist. Skip items checked recently (tra
 
 ## Scheduled outputs
 
-- **09:00** — Send morning brief (templates/morning_brief.md)
-- **18:00** — Send evening wrap (templates/evening_wrap.md)
+- **06:00 Europe/Brussels** — Send morning brief (templates/morning_brief.md)
+- **17:00 Europe/Brussels** — Send afternoon brief / evening wrap (templates/evening_wrap.md)
 
 ## When to reach out
 

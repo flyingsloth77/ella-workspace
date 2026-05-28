@@ -41,6 +41,8 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
 - "Mental notes" don't survive session restarts. Files do.
 - When someone says "remember this" → update `memory/YYYY-MM-DD.md` or relevant file
+- When the user gives durable relationship or work context, automatically structure it into `memory/people/` and `memory/projects/` where appropriate — do not wait to be asked
+- Update relevant people/project profiles in the background by default when new durable context arrives; do not announce routine memory/profile updates unless the user asks
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝

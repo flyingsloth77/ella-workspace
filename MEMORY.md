@@ -7,29 +7,32 @@
 - [Owner Profile](owner.md) -- Georgia; prefers concise, proactive communication and asks that I ask before risky actions
 
 ## Active Projects
+- [EU Academy Role](memory/projects/eu-academy-role.md) -- new IT PM role at DIGIT/JRC; onboarding, performance, stakeholder mapping, and grade/start details are priorities
+- [Greek Employment Records / Grade Issue](memory/projects/greek-employment-records.md) -- missing Greek employment credits may affect starting grade; time-sensitive within first 3 months of service
+- [EU Competitions](memory/projects/eu-competitions.md) -- AD5 general and AD7 ICT Project Manager applications; AD7 has a June 10 deadline
+- [Personal Operating Rhythm](memory/projects/personal-operating-rhythm.md) -- brief cadence, communication preferences, and current focus areas
+- Career development: network toward a permanent position
 - Atlas Wire materials are present in the workspace; active role/status not yet clarified
 
 ## Key People
 - Georgia -- owner; timezone Europe/Brussels; pronouns she/her
+- [Family](memory/people/family.md) -- Sam, children, parents, siblings
+- [EU Academy Stakeholders](memory/people/eu-academy-stakeholders.md) -- Andrei, David, Georg, team context, and notable relationship notes
+- [Efthymia Sigoura](memory/people/efthymia-sigoura.md) -- helpful JRC HR contact in Ispra; reconnect after hiring process
 
 ## Active Decisions & Commitments
 - Risk preference: ask before risky actions
-- `config/settings.yaml` needs `owner.name` and `telegram_chat_id` filled in
-- `USER.md` needs owner profile details filled in
+- Scheduled briefs enabled: morning brief at 06:00 Europe/Brussels and afternoon brief at 17:00 Europe/Brussels
+- Setup still needs git verification and commit once shell access is available
 
 ## Lessons Learned
 - Keep setup state explicit in files; do not assume shell-backed tasks completed if approval timed out
-- Don't commit `.openclaw/workspace-state.json` — it's a runtime file that changes on every boot
-- git stash → pull --rebase → stash pop → push is the safe sync pattern when both machines have changes
+- When Georgia provides durable people/project/work context in chat, convert it into structured memory files automatically instead of waiting for a separate instruction
 
-## System Notes — VERIFIED ✅ (as of 2026-04-16)
+## System Notes
 - Messaging platform: Telegram
 - Brief style: concise, no fluff, lead with what matters
-- Task management: `tasks/active.md` (source of truth), `tasks/completed.md`, `tasks/delegated.md`
-- Calendar: Google Calendar via MCP (`gcal_*` tools)
-- Email: Gmail via MCP (`gmail_*` tools)
-- Git sync: VERIFIED working — `scripts/git_sync.py sync` pulls then pushes
-- Remote: `https://github.com/flyingsloth77/ella-workspace.git` (master branch)
-- VPS is primary runtime; laptop is workbench; git is the shared brain
-- Shell policy: read `SHELL_POLICY.md` before any shell command
-- Gateway auto-starts on Windows login via Startup folder shortcut
+- Task management: local markdown (tasks/active.md) -- integrate external tool when ready
+- Calendar: Google Calendar via MCP
+- Email: Gmail via MCP
+- Git sync script exists at scripts/git_sync.py and is referenced by HEARTBEAT.md, but live operation is not yet verified

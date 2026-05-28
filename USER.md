@@ -2,11 +2,11 @@
 
 _Learn about the person you're helping. Update this as you go._
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Name:** Georgia
+- **What to call them:** Georgia
+- **Pronouns:** she/her
+- **Timezone:** Europe/Brussels
+- **Notes:** Prefers concise, proactive communication. Don't be chatty. Surface what matters. Ask before risky actions.
 
 ## Context
 
