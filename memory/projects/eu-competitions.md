@@ -15,6 +15,4 @@
 - Field-specific technical testing filters out generalists
 
 ## AD7 Status
-- Application deadline: June 10
-- Georgia has not submitted yet because she is waiting to confirm her start date and include it in the application
-- Reminder requested for June 1 to finish the application
+- Application submitted before June 10 deadline

@@ -25,7 +25,7 @@ Georgia is preparing to start a new role as IT PM for EU Academy. The position s
 - Especially prioritize Andrei, Georg, and David
 
 ## Near-Term Notes
-- Georgia does not have a confirmed start date yet
+- Georgia started on 16 June 2026 (welcome/CAST day); first actual working day is 17 June
 - Efthymia Sigoura (HR at JRC, based in Ispra) asked Georgia for her preferred start date
 - Georgia said as soon as possible, ideally June 1, after clearing it with Andrei
 - Process is still waiting on the medical fitness result before moving ahead

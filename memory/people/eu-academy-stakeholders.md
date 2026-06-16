@@ -2,8 +2,8 @@
 
 ## Leadership / Hiring
 - Andrei — boss who hired Georgia; appears empowering, results-oriented, and relationship-positive after lunch with Georgia and Sam
-- David — Head of Unit for JRC
-- Georg — Business Manager on the JRC side
+- David Mair — Head of Unit for JRC
+- Georg Kotchy — Business Manager on the JRC side
 
 ## Andrei Working Style
 - Cares about results more than control
