@@ -28,6 +28,7 @@
 ## Lessons Learned
 - Keep setup state explicit in files; do not assume shell-backed tasks completed if approval timed out
 - When Georgia provides durable people/project/work context in chat, convert it into structured memory files automatically instead of waiting for a separate instruction
+- Always read a file immediately before editing it; never edit from memory — exact-match failures happen when the mental model diverges from actual file content
 
 ## System Notes
 - Messaging platform: Telegram

@@ -4,9 +4,10 @@
 Georgia is preparing to start a new role as IT PM for EU Academy. The position sits at DIGIT and is paid by JRC. A key goal is to become excellent in the role quickly and use the opportunity to build toward a permanent position.
 
 ## Current Priorities
-- Prepare thoroughly before start
-- Set up useful automations
-- Learn the stakeholder map fast
+- Get across the project state fast (see eu-academy-project-state.md)
+- Own budget/hours/MoU renewal machinery
+- Support Andrei on migration
+- Attend all key meetings: Tuesday PM meeting, weekly JRC meeting, dev stand-ups
 - Build credibility early
 - Network toward a permanent position
 
@@ -54,6 +55,8 @@ Georgia is preparing to start a new role as IT PM for EU Academy. The position s
 - His management philosophy: a good manager should be part of the team who coordinates others, not separate from it
 - In a meeting about Georgia's onboarding, Andrei said Georgia will work on budget, reporting, and contract negotiations
 - More specifically, budgeting means Georgia will maintain a sheet with everyone's rates, receive hours worked from Irina, and calculate costs
+- Migration context: currently on Moodle 3.11 (legacy); Moodle 4.5 migration planned by end of 2026; Moodle 5.3 migration planned for 2027
+- Historical context: until last year, Trement was the IT provider and the entire team was from there; decision was made to build an internal team instead
 - A key responsibility is the memorandum of understanding / annual contract between JRC and DIGIT; Georgia will be in charge of renewing it this year
 - Andrei said he will remain involved and Georgia will support him on the migration
 - Andrei said it is good that Georgia is joining now while things are calm
@@ -61,3 +64,4 @@ Georgia is preparing to start a new role as IT PM for EU Academy. The position s
 - Andrei presented Georgia to the team as technical, though less technical than him
 - He noted that Georgia has her own company, is used to working with consultants, and taught herself an AI bot
 - Andrei also signaled that the team works fine as is, which likely means Georgia should avoid interfering too much in team operations at first
+- Georgia proposed doing 1:1 intros with each team member; Andrei agreed (17 June)

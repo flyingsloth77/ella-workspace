@@ -24,11 +24,29 @@
 - Sam — Georgia's husband; works with Andrei and effectively does the Business Manager job for EU Academy as an external consultant
 
 ## Team
-- Jones — Business Analyst; Black; associated with London/The Hague; comes to Brussels from time to time; also a personal coach with TikTok/social media presence
-- Kosmin — Romanian; hardworking; knowledgeable in Moodle
-- Irina — PM on the project; mainly handles the six developers; external consultant working from Romania
-- Nelson — developer specifically flagged as creating issues; asked whether Georgia is technical during an onboarding discussion
+
+### PMs
+- Irina — IT PM; handles day-to-day team management; reports to Georgia; shares responsibility for on-time/on-budget delivery; straight shooter; good early rapport with Georgia
+- Michael — backup PM; mainly works on other projects
+
+### Business Analysts
+- Jones — BA; Black; associated with London/The Hague; comes to Brussels from time to time; also a personal coach with TikTok/social media presence
+- Kosmin — BA; Romanian; hardworking; knowledgeable in Moodle
+
+### Developers
+- 5 developers (names TBC from 1:1s)
+- 2 tech leads
+- 1 DevOps
+- Nelson — developer; hardworking and respected by team, but team is also afraid of him; misses deadlines but eventually delivers; fights with Irina at every step; had a standoff with Jorick — they now refuse to work together; asked whether Georgia is technical during an onboarding discussion
+
+### QA / Testing
+- 1 QA (junior tester; also helping BAs now)
+- 1 senior tester joining next week
+
+## Georg Kotchy Working Style
+- Uses structured frameworks (MoSCoW) for feature prioritization with the BAs
+- UAT is a hard gate: Must features are non-negotiable
 
 ## Relationship Notes
-- Georgia has lunch with Andrei this Thursday, together with Sam
+- Lunch with Andrei happened April 2026; went very well
 - The developers are seen as underperforming overall, with Nelson specifically identified as a source of issues
