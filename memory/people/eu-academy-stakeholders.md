@@ -46,7 +46,13 @@
 ## Georg Kotchy Working Style
 - Uses structured frameworks (MoSCoW) for feature prioritization with the BAs
 - UAT is a hard gate: Must features are non-negotiable
+- Direct and decisive on personnel: he removes problem people quickly and cleanly when he has authority
+- Has told Georgia and others to report any issues with Nelson to him or Georgia, who will escalate to Andrei
+- Frustrated that Andrei has not removed Nelson; doesn't understand the tolerance for the behavior
+- His example: when he had a similar problem person, he went to the Head of Unit, declared them off the team, and had them write handover documents for the rest of their contract
+- Sees Nelson as a problem that should be handled more decisively
 
 ## Relationship Notes
 - Lunch with Andrei happened April 2026; went very well
 - The developers are seen as underperforming overall, with Nelson specifically identified as a source of issues
+- Georg and Andrei appear to differ in how they handle difficult team members — important political nuance for Georgia to navigate

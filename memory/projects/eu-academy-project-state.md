@@ -59,3 +59,16 @@ _First real picture of project health, from Irina briefing Georgia on 18 June 20
 ## Sam's Intelligence
 - Sam flagged that requirement changes by BAs may not be signed off on Confluence
 - This is a governance gap worth tracking
+
+## Nelson Escalation Protocol (set by Georg)
+- Georg told Georgia and others to report issues with Nelson to him or Georgia; will escalate to Andrei
+- Team told not to fight with Nelson — just report
+- Georg vs Andrei tension: Georg wants Nelson removed; Andrei is tolerating the situation for now
+- Georgia needs to navigate this carefully — she reports to Andrei only, but Georg is a key stakeholder
+
+## Georgia's Pending Tasks
+- MoU update between DIGIT and JRC — first formal task; financial data may be in Confluence
+- Review past emails sent by Irina
+- Review everything Apostolos sent over
+- Meeting with Andrei today at DIGIT (19 June)
+- Lunch with Greek newcomers: Monday 22 June
