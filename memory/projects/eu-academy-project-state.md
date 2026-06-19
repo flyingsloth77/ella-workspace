@@ -67,8 +67,7 @@ _First real picture of project health, from Irina briefing Georgia on 18 June 20
 - Georgia needs to navigate this carefully — she reports to Andrei only, but Georg is a key stakeholder
 
 ## Georgia's Pending Tasks
-- MoU update between DIGIT and JRC — first formal task; financial data may be in Confluence
+- MoU update between DIGIT and JRC — financial data is in Maps and Excel; waiting for access; messy due to different credit lines used historically
 - Review past emails sent by Irina
 - Review everything Apostolos sent over
-- Meeting with Andrei today at DIGIT (19 June)
 - Lunch with Greek newcomers: Monday 22 June
