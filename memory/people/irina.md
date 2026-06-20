@@ -27,6 +27,12 @@
 - Irina is the only one standing up to him
 - Nelson and Jorick had a standoff a few months ago; they now refuse to work together
 
+## Georgia's Onboarding with the Team
+- Irina briefed the team that Georgia will join daily dev meetings and do 1:1s
+- Nelson raised concerns — his predecessor (Irina Salajan) had tried to micromanage the devs
+- Irina told the team: "just give her a chance"
+- Georgia enters with a credibility gap to manage due to predecessor's reputation
+
 ## Context
 - Team was fully from Trement (IT provider) until last year
 - Decision was made to shift to internal team
