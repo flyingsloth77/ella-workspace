@@ -2,7 +2,8 @@
 
 ## Leadership / Hiring
 - Andrei — boss who hired Georgia; appears empowering, results-oriented, and relationship-positive after lunch with Georgia and Sam
-- David Mair — Head of Unit for JRC
+- David Mair — Head of Unit for JRC; told Georgia she's a much better fit than her predecessor; expects EAC to eventually take Georgia as their PM for the 2027 migration; told Iolita Georgia's story before they met
+- Iolita — Director of JRC; told Georgia the two-year contract doesn't mean only two years, they keep good people; already knew Georgia's background from David
 - Georg Kotchy — Business Manager on the JRC side
 
 ## Andrei Personal
