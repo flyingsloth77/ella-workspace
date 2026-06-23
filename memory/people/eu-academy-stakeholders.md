@@ -5,6 +5,14 @@
 - David Mair — Head of Unit for JRC
 - Georg Kotchy — Business Manager on the JRC side
 
+## Andrei Personal
+- From Bucharest; says it's nice to visit but not to live there
+- Father died in 2014; mother trying to find a way forward
+- Difficult relationship with his wife
+- Two kids: son and daughter
+- Deep connection to Greece: parents had a travel agency; went to Greece a lot as a child
+- Has been to Athens 7-8 times, also Rhodes, Crete (Chania), Chalkidiki (Metamorfosi, Sithonia, Kassandra), Thasos
+
 ## Andrei Working Style
 - Cares about results more than control
 - Empowers people he hires
