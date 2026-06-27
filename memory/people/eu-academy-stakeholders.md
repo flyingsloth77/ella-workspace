@@ -4,7 +4,7 @@
 - Andrei — boss who hired Georgia; appears empowering, results-oriented, and relationship-positive after lunch with Georgia and Sam
 - David Mair — Head of Unit for JRC; told Georgia she's a much better fit than her predecessor; expects EAC to eventually take Georgia as their PM for the 2027 migration; told Iolita Georgia's story before they met
 - Iolita — Director of JRC; told Georgia the two-year contract doesn't mean only two years, they keep good people; already knew Georgia's background from David
-- Georg Kotchy — Head of Sector, JRC; Business Manager on the JRC side; sensitive about role clarity after predecessor confusion; pushed back on Georgia's "side of the project" framing in first JRC meeting, but recovered well over lunch
+- Georg Kotchy — Head of Sector, JRC; Business Manager on the JRC side; sensitive about role clarity after predecessor confusion; pushed back on Georgia's "side of the project" framing in first JRC meeting, but recovered well over lunch; advised Georgia to move to EAC when the project ends, not stay in DIGIT; says DIGIT is "the wild west" and nobody there is happy; EAC is professional; rule of thumb: TAXUD has ~5 intramuros per official, DIGIT has ~20 — a sign of how stretched DIGIT is
 
 ## Andrei Personal
 - From Bucharest; says it's nice to visit but not to live there
