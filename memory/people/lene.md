@@ -1,7 +1,7 @@
 # Lene
 
 ## Basic Info
-- Danish
+- Danish; from Denmark, 100km north of Aarhus
 - Works under Sam at JRC
 - Gives trainings and consults scientists on science communication — how to explain their work to lay people
 
